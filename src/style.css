@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout{
+    background-color: grey;
+    width: 90%;
+    margin:50px 5%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+.image-container{
+   
+    text-align: center;
+    border: solid black 2px;
+    background-color: white;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    }
+
+.image{
+    width: 100%;
+}
